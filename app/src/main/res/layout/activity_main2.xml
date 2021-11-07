@@ -7,6 +7,36 @@
     tools:context=".MainActivity2">
 
     <Button
+        android:id="@+id/b"
+        android:layout_width="313dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="51dp"
+        android:text="Lisaveyah"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b4" />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="313dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="40dp"
+        android:text="Ghunna"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b4" />
+
+    <Button
         android:id="@+id/b3"
         android:layout_width="313dp"
         android:layout_height="60dp"
@@ -52,12 +82,12 @@
         android:id="@+id/b2"
         android:layout_width="313dp"
         android:layout_height="60dp"
-        android:textSize="24sp"
-        android:textStyle="bold"
         android:layout_marginStart="47dp"
         android:layout_marginTop="19dp"
         android:layout_marginEnd="51dp"
         android:text="Lahatiyah"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/b1" />
@@ -71,9 +101,11 @@
         android:layout_marginEnd="23dp"
         android:text="makhārij al-ḥurūf"
 
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
 
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -83,13 +115,14 @@
         android:id="@+id/b1"
         android:layout_width="313dp"
         android:layout_height="60dp"
-        android:textSize="24sp"
-        android:textStyle="bold"
         android:layout_marginStart="47dp"
         android:layout_marginTop="43dp"
         android:layout_marginEnd="51dp"
         android:text="Halqiyah"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
