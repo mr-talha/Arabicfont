@@ -1,5 +1,7 @@
 package com.example.arabic;
 
+import static android.app.PendingIntent.getActivity;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -18,25 +20,28 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         b=(Button) findViewById(R.id.rl);
         nxt=(Button)findViewById(R.id.next);
+
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                getUrl("https://github.com/aishavlog/BCSF18M040_Arabic_Letter.git");
+                getUrl(view,"https://github.com/aishavlog/BCSF18M040_Arabic_Letter.git");
             }
         });
         nxt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,MainActivity14.class);
-                startActivity(intent);
+                Intent intent=new Intent(view.getContext(),MainActivity14.class);
+                view.getContext().startActivity(intent);
 
             }
         });
 
     }
-    private void getUrl(String s)
+    private void getUrl(View view,String s)
     {
         Uri uri=Uri.parse(s);
-        startActivity(new Intent(Intent.ACTION_VIEW,uri));
+        Intent intent=new Intent(Intent.ACTION_VIEW,uri);
+        view.getContext().startActivity(intent);
+       // startActivity(new Intent(Intent.ACTION_VIEW,uri));
     }
 }
