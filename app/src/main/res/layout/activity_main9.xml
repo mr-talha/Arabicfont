@@ -8,33 +8,58 @@
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="396dp"
-        android:layout_height="339dp"
-        app:srcCompat="@drawable/capture21"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="23dp" />
+        android:layout_width="380dp"
+        android:layout_height="331dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/capture21" />
 
     <TextView
         android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="386dp" />
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:text="Arabic Letters"
+        android:background="@drawable/textview_border"
+        android:textColor="#191818"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <TextView
         android:id="@+id/textView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="189dp"
-        tools:layout_editor_absoluteY="408dp" />
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="18dp"
+        android:text="ظ     ذ    ث"
+        android:textColor="#E91E63"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <TextView
         android:id="@+id/textView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="507dp" />
+        android:layout_width="366dp"
+        android:layout_height="103dp"
+        android:background="@drawable/textview_border"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="23dp"
+        android:text="Sound produced from tip of the tongue touching the tip of the frontal 2 teeth"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
 </androidx.constraintlayout.widget.ConstraintLayout>
