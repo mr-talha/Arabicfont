@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         nxt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,MainActivity2.class);
+                Intent intent=new Intent(MainActivity.this,MainActivity14.class);
                 startActivity(intent);
 
             }

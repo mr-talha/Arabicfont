@@ -14,6 +14,7 @@ Button b12;
 Button b13;
 Button b14;
 Button b15;
+Button b16;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +25,7 @@ Button b15;
         b13 = (Button) findViewById(R.id.b4);
         b14 = (Button) findViewById(R.id.b5);
         b15 = (Button) findViewById(R.id.b);
+        b16 = (Button) findViewById(R.id.b6);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -68,6 +70,14 @@ Button b15;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity2.this, MainActivity9.class);
+                startActivity(intent);
+
+            }
+        });
+        b16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity2.this, MainActivity11.class);
                 startActivity(intent);
 
             }
