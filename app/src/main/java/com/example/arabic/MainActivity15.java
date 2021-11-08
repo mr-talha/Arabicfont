@@ -16,9 +16,11 @@ Button answer1,answer2,answer3,answer4;
 TextView question;
 static int score;
 static int total=1;
+Button finish;
 static int correct;
+  static  Intent intent;
 static int incorrect;
-  static  int d=0;
+
 private Question ques=new Question();
 String answer;
 int qLen=ques.mquestions.length;
@@ -34,6 +36,7 @@ Random r;
         answer3 = (Button) findViewById(R.id.option3);
         answer4 = (Button) findViewById(R.id.option4);
         question = (TextView) findViewById(R.id.question);
+        finish=(Button)findViewById(R.id.fn) ;
         next=(Button)findViewById(R.id.nxt);
         r = new Random();
         updateQues(r.nextInt(qLen));
@@ -76,32 +79,36 @@ Random r;
             public void onClick(View view) {
 
 
-                if(d>(qLen))
-                {
-                    Intent intent=new Intent(view.getContext(),MainActivity2.class);
-                    view.getContext().startActivity(intent);
-                    // d++;
-                }
-                d++;
+
                 updateQues(r.nextInt(qLen));
                 total++;
                 answer1.setBackgroundColor(blueColor);
                 answer2.setBackgroundColor(blueColor);
                 answer3.setBackgroundColor(blueColor);
                 answer4.setBackgroundColor(blueColor);
-//                d++;
-//                if(d>=qLen)
-//                {
-//                    Intent intent=new Intent(view.getContext(),MainActivity2.class);
-//                    view.getContext().startActivity(intent);
-//                   // d++;
-//                }
 
 
 
 
 
 
+            }
+        });
+        finish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //create intent
+                intent=new Intent(view.getContext(),MainActivity16.class);
+
+                //String d=e1.getText().toString();
+                // send data
+
+                intent.putExtra("Score",String.valueOf(score));
+                intent.putExtra("Correct",String.valueOf(correct));
+                intent.putExtra("Incorrect",String.valueOf(incorrect));
+                intent.putExtra("Count",String.valueOf(total));
+                // start intent
+                view.getContext().startActivity(intent);
             }
         });
         answer2.setOnClickListener(new View.OnClickListener() {
