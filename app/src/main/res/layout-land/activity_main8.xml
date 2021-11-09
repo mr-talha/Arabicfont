@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="388dp"
-        android:layout_height="288dp"
+        android:layout_width="414dp"
+        android:layout_height="211dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toStartOf="@+id/textView30"
@@ -48,11 +48,11 @@
 
     <TextView
         android:id="@+id/textView32"
-        android:layout_width="368dp"
-        android:layout_height="99dp"
+        android:layout_width="680dp"
+        android:layout_height="77dp"
         android:layout_marginStart="29dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="334dp"
+        android:layout_marginEnd="22dp"
         android:background="@drawable/textview_border"
         android:text="Sound produced from tip of the tongue touching the base of the front 2 teeth"
         android:textColor="#3F51B5"

@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="308dp"
-        android:layout_height="96dp"
+        android:layout_height="61dp"
         android:layout_marginStart="21dp"
         android:layout_marginTop="19dp"
         android:layout_marginEnd="48dp"
@@ -26,8 +26,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="308dp"
-        android:layout_height="81dp"
+        android:layout_width="312dp"
+        android:layout_height="65dp"
         android:layout_marginStart="21dp"
         android:layout_marginEnd="48dp"
         android:background="#C51717"
@@ -43,7 +43,6 @@
         android:layout_width="300dp"
         android:layout_height="69dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="28dp"
         android:layout_marginEnd="52dp"
         android:background="#DF2727"
         android:text="Correct"
@@ -52,6 +51,7 @@
         android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/tv8"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,7 +60,7 @@
         android:layout_width="298dp"
         android:layout_height="57dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="19dp"
         android:layout_marginEnd="54dp"
         android:background="#D82525"
         android:text="Incorrect"
@@ -69,6 +69,7 @@
         android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/tv5" />
 
@@ -86,8 +87,8 @@
 
     <TextView
         android:id="@+id/tv7"
-        android:layout_width="302dp"
-        android:layout_height="70dp"
+        android:layout_width="304dp"
+        android:layout_height="65dp"
         android:layout_marginEnd="52dp"
         android:background="#DF2A2A"
         android:textAlignment="center"
@@ -98,10 +99,9 @@
 
     <TextView
         android:id="@+id/tv8"
-        android:layout_width="313dp"
-        android:layout_height="88dp"
+        android:layout_width="312dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="48dp"
         android:background="#D82929"
         android:text="Total"

@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="432dp"
-        android:layout_height="268dp"
+        android:layout_width="435dp"
+        android:layout_height="201dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="16dp"
@@ -49,8 +49,8 @@
 
     <TextView
         android:id="@+id/textView35"
-        android:layout_width="418dp"
-        android:layout_height="98dp"
+        android:layout_width="423dp"
+        android:layout_height="71dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="11dp"
@@ -68,7 +68,7 @@
         android:layout_width="225dp"
         android:layout_height="71dp"
         android:layout_marginStart="11dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="61dp"
         android:text="Continue"
         android:textSize="24sp"

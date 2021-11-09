@@ -10,8 +10,8 @@
         android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="78dp"
-        android:layout_marginEnd="149dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="172dp"
         android:background="@drawable/textview_border"
         android:text="Arabic Letters"
         android:textColor="#191818"
@@ -37,10 +37,10 @@
 
     <TextView
         android:id="@+id/textView35"
-        android:layout_width="687dp"
-        android:layout_height="96dp"
+        android:layout_width="685dp"
+        android:layout_height="62dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="28dp"
         android:background="@drawable/textview_border"
         android:text="Sound produced from tip of the tongue comes between the front top and bottom teeth"
@@ -48,13 +48,14 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="365dp"
-        android:layout_height="262dp"
+        android:layout_height="215dp"
         android:layout_marginStart="19dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="46dp"
