@@ -38,10 +38,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void getUrl(View view,String s)
-    {
+    {   //url of repo
         Uri uri=Uri.parse(s);
+        //intent
         Intent intent=new Intent(Intent.ACTION_VIEW,uri);
         view.getContext().startActivity(intent);
-       // startActivity(new Intent(Intent.ACTION_VIEW,uri));
+
     }
 }

@@ -1,6 +1,7 @@
 package com.example.arabic;
 
 public class Question {
+    // Questions array
     public String mquestions[]={
             "Which arabic letter produce sound from middle of throat ?",
             "Which arabic letter produce sound from outer part of both lips touch each other ?",
@@ -15,7 +16,7 @@ public class Question {
 
 
     };
-
+    // Choices array
     private String choices[][]={
 
             {"ع","غ ","م","و"},
@@ -31,6 +32,7 @@ public class Question {
 
 
     };
+    // answers array
     private String correctAns[]={
 
             "ع",
@@ -44,6 +46,7 @@ public class Question {
             "م",
             "Tip of the tongue touching the base of the front 2 teeth"
     };
+    // getters
     public String getQuestion(int a)
     {
         String ques=mquestions[a];

@@ -21,21 +21,15 @@ Button b2;
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent = new Intent(MainActivity14.this, MainActivity2.class);
-//                startActivity(intent);
                 Intent intent=new Intent(view.getContext(),MainActivity2.class);
                 view.getContext().startActivity(intent);
-
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent = new Intent(MainActivity14.this, MainActivity15.class);
-//                startActivity(intent);
                 Intent intent=new Intent(view.getContext(),MainActivity15.class);
                 view.getContext().startActivity(intent);
-
             }
         });
     }

@@ -26,7 +26,6 @@ public class MainActivity16 extends AppCompatActivity {
         tv3=(TextView) findViewById(R.id.tv9);
         MainActivity15 activity = new MainActivity15();
 
-//        Intent intent=new Intent();
         if(MainActivity15.intent.getExtras().containsKey("Score"))
         {        tv.setText(MainActivity15.intent.getStringExtra("Score"));
         }
@@ -39,16 +38,6 @@ public class MainActivity16 extends AppCompatActivity {
         if(MainActivity15.intent.getExtras().containsKey("Count"))
         {        tv3.setText(MainActivity15.intent.getStringExtra("Count"));
         }
-//        if(activity.intent.getExtras().containsKey("Correct"))
-//        {        tv.setText(activity.intent.getStringExtra("Correct"));
-//        }
-//        if(activity.intent.getExtras().containsKey("Incorrect"))
-//        {        tv.setText(activity.intent.getStringExtra("Incorrect"));
-//        }
-//        if(activity.intent.getExtras().containsKey("Count"))
-//        {        tv.setText(activity.intent.getStringExtra("count"));
-//        }
-
     }
 
 }

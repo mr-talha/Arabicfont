@@ -12,21 +12,19 @@ import android.widget.TextView;
 import java.util.Random;
 
 public class MainActivity15 extends AppCompatActivity {
-Button answer1,answer2,answer3,answer4;
-TextView question;
-static int score;
-static int total=1;
-Button finish;
-static int correct;
-  static  Intent intent;
-static int incorrect;
-
-private Question ques=new Question();
-String answer;
-int qLen=ques.mquestions.length;
-Button next;
-
-Random r;
+    Button answer1,answer2,answer3,answer4;
+    TextView question;
+    static int score;
+    static int total=1;
+    Button finish;
+    static int correct;
+    static  Intent intent;
+    static int incorrect;
+    private Question ques=new Question();
+    String answer;
+    int qLen=ques.mquestions.length;
+    Button next;
+    Random r;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,37 +75,23 @@ Random r;
             @Override
 
             public void onClick(View view) {
-
-
-
                 updateQues(r.nextInt(qLen));
                 total++;
                 answer1.setBackgroundColor(blueColor);
                 answer2.setBackgroundColor(blueColor);
                 answer3.setBackgroundColor(blueColor);
                 answer4.setBackgroundColor(blueColor);
-
-
-
-
-
-
             }
         });
         finish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //create intent
+
                 intent=new Intent(view.getContext(),MainActivity16.class);
-
-                //String d=e1.getText().toString();
-                // send data
-
                 intent.putExtra("Score",String.valueOf(score));
                 intent.putExtra("Correct",String.valueOf(correct));
                 intent.putExtra("Incorrect",String.valueOf(incorrect));
                 intent.putExtra("Count",String.valueOf(total));
-                // start intent
                 view.getContext().startActivity(intent);
             }
         });

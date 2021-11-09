@@ -100,7 +100,7 @@
         android:layout_height="55dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="Finish"
+        android:text="END"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
