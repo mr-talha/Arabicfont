@@ -25,7 +25,7 @@ public class Question {
             {"ض","ن,ض","ج ش ی ","ق"},
             {"ز","م ن","ف","ظ"},
             {"One side of the tongue touching the molar teeth","Start of the Throat","End of Throat","Portion of Tongue near its base touching the roof of mouth"},
-            {"ز","م ن","ف","ص"},
+            {"ز","ن","ف","ص"},
             {"Rounded tip of the tongue touching the base of the frontal 8 teeth","One side of the tongue touching the molar teeth","Middle of throat","Portion of Tongue near its base touching the roof of mouth"},
             {"و","ز","م","ص "},
             {"One side of the tongue touching the molar teeth","Tip of the tongue touching the base of the front 2 teeth","Middle of throat","Portion of Tongue near its base touching the roof of mouth"}

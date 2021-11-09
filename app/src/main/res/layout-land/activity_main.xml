@@ -66,4 +66,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rl" />
 
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="404dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="17dp"
+
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rl"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/repo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
