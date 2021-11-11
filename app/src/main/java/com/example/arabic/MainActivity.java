@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                getUrl(view,"https://github.com/mr-talha/ass-3.git");
+                getUrl(view,"https://github.com/mr-talha/Arabicfont.git");
             }
         });
         nxt.setOnClickListener(new View.OnClickListener() {
